@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		504E991A1C9BBCB10082E5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E99191C9BBCB10082E5C0 /* AppDelegate.swift */; };
-		504E991C1C9BBCB10082E5C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E991B1C9BBCB10082E5C0 /* ViewController.swift */; };
 		504E991F1C9BBCB10082E5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504E991D1C9BBCB10082E5C0 /* Main.storyboard */; };
 		504E99211C9BBCB10082E5C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504E99201C9BBCB10082E5C0 /* Images.xcassets */; };
 		504E99241C9BBCB10082E5C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504E99221C9BBCB10082E5C0 /* LaunchScreen.xib */; };
 		504E99301C9BBCB10082E5C0 /* HomeKitPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E992F1C9BBCB10082E5C0 /* HomeKitPracticeTests.swift */; };
+		504E993B1C9BC1800082E5C0 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504E993A1C9BC1800082E5C0 /* HomeKit.framework */; };
+		504E993D1C9BDA450082E5C0 /* ListHomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E993C1C9BDA450082E5C0 /* ListHomesViewController.swift */; };
+		504E993F1C9BDBED0082E5C0 /* AddHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E993E1C9BDBED0082E5C0 /* AddHomeViewController.swift */; };
+		504E99411C9BE23E0082E5C0 /* ListRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E99401C9BE23E0082E5C0 /* ListRoomsViewController.swift */; };
+		504E99431C9BE5DB0082E5C0 /* AddRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E99421C9BE5DB0082E5C0 /* AddRoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,18 @@
 		504E99141C9BBCB10082E5C0 /* HomeKitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeKitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		504E99181C9BBCB10082E5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		504E99191C9BBCB10082E5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		504E991B1C9BBCB10082E5C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		504E991E1C9BBCB10082E5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		504E99201C9BBCB10082E5C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		504E99231C9BBCB10082E5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		504E99291C9BBCB10082E5C0 /* HomeKitPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeKitPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		504E992E1C9BBCB10082E5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		504E992F1C9BBCB10082E5C0 /* HomeKitPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitPracticeTests.swift; sourceTree = "<group>"; };
+		504E99391C9BC1800082E5C0 /* HomeKitPractice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HomeKitPractice.entitlements; sourceTree = "<group>"; };
+		504E993A1C9BC1800082E5C0 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		504E993C1C9BDA450082E5C0 /* ListHomesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListHomesViewController.swift; sourceTree = "<group>"; };
+		504E993E1C9BDBED0082E5C0 /* AddHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHomeViewController.swift; sourceTree = "<group>"; };
+		504E99401C9BE23E0082E5C0 /* ListRoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRoomsViewController.swift; sourceTree = "<group>"; };
+		504E99421C9BE5DB0082E5C0 /* AddRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504E993B1C9BC1800082E5C0 /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +69,7 @@
 		504E990B1C9BBCB00082E5C0 = {
 			isa = PBXGroup;
 			children = (
+				504E993A1C9BC1800082E5C0 /* HomeKit.framework */,
 				504E99161C9BBCB10082E5C0 /* HomeKitPractice */,
 				504E992C1C9BBCB10082E5C0 /* HomeKitPracticeTests */,
 				504E99151C9BBCB10082E5C0 /* Products */,
@@ -77,8 +88,12 @@
 		504E99161C9BBCB10082E5C0 /* HomeKitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				504E99391C9BC1800082E5C0 /* HomeKitPractice.entitlements */,
 				504E99191C9BBCB10082E5C0 /* AppDelegate.swift */,
-				504E991B1C9BBCB10082E5C0 /* ViewController.swift */,
+				504E993C1C9BDA450082E5C0 /* ListHomesViewController.swift */,
+				504E993E1C9BDBED0082E5C0 /* AddHomeViewController.swift */,
+				504E99401C9BE23E0082E5C0 /* ListRoomsViewController.swift */,
+				504E99421C9BE5DB0082E5C0 /* AddRoomViewController.swift */,
 				504E991D1C9BBCB10082E5C0 /* Main.storyboard */,
 				504E99201C9BBCB10082E5C0 /* Images.xcassets */,
 				504E99221C9BBCB10082E5C0 /* LaunchScreen.xib */,
@@ -161,6 +176,12 @@
 				TargetAttributes = {
 					504E99131C9BBCB10082E5C0 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = T23PE6R3CV;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
 					};
 					504E99281C9BBCB10082E5C0 = {
 						CreatedOnToolsVersion = 6.1;
@@ -212,8 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				504E991C1C9BBCB10082E5C0 /* ViewController.swift in Sources */,
+				504E993D1C9BDA450082E5C0 /* ListHomesViewController.swift in Sources */,
 				504E991A1C9BBCB10082E5C0 /* AppDelegate.swift in Sources */,
+				504E993F1C9BDBED0082E5C0 /* AddHomeViewController.swift in Sources */,
+				504E99431C9BE5DB0082E5C0 /* AddRoomViewController.swift in Sources */,
+				504E99411C9BE23E0082E5C0 /* ListRoomsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +360,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeKitPractice/HomeKitPractice.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HomeKitPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +374,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeKitPractice/HomeKitPractice.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HomeKitPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +437,7 @@
 				504E99351C9BBCB10082E5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		504E99361C9BBCB10082E5C0 /* Build configuration list for PBXNativeTarget "HomeKitPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				504E99381C9BBCB10082E5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
